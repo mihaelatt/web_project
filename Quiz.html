@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" target="text/css" href="style_continut.css">
+
+<head>
+
+<script src="quiz.js"></script>
+
+<title>Quiz</title>
+</head>
+
+<body background="images/b-text.jpg">
+<h1>Quiz</h1>
+
+<form action="" method="POST" name="alternativ">
+
+<ol>
+	<li>
+		<h3>Pentru un arbore binar cu n niveluri, numãrul maxim de noduri din arbore este: </h3>
+		<ul>
+		<li><input type="radio" name="r1" value="corect">2<sup>n</sup>-1</input></li>
+		<li><input type="radio" name="r1" value="incorect">Nu</input></li>
+		<li><input type="radio" name="r1" value="incorect">Poate</input></li>
+		</ul>
+	</li>
+
+	<li>
+		<h3>Câte modalitãþi de parcurgere a unui arbore binar existã ? </h3>
+		<ul>
+		<li><input type="radio" name="r2" value="incorect">2</input></li>
+		<li><input type="radio" name="r2" value="incorect">3</input></li>
+		<li><input type="radio" name="r2" value="corect">4</input></li>
+		</ul>
+	</li>
+<li>
+		<h3>Parcurgerea în postordine presupune:</h3>
+		<ul>
+		<li><input type="radio" name="r3" value="incorect">parcurgerea subarborelui stâng, a vârfului, apoi a subarborelui drept </input></li>
+		<li><input type="radio" name="r3" value="incorect">parcurgrea vârfului, a subarborelui stâng dupã care a celui drept </input></li>
+		<li><input type="radio" name="r3" value="corect">parcurgerea subarborelui stâng, a subarborelui drept dupã care a vârfului </input></li>
+		</ul>
+	</li>
+</br>
+<li>
+
+<img src="images/quiz.png" width=50% height=50%>
+
+		<h3>Pentru arborele din figura de mai sus, parcuregerea în inordine este:</h3>
+		<ul>
+		<li><input type="radio" name="r4" value="incorect">1 2 4 3 5 7 6 </input></li>
+		<li><input type="radio" name="r4" value="incorect">4 2 7 5 6 3 1</input></li>
+		<li><input type="radio" name="r4" value="corect">4 2 1 5 7 3 6 </input></li>
+		</ul>
+	</li>
+
+<li>
+		<h3>Pentru arborele din figura de mai sus, parcuregerea în preordine este:</h3>
+		<ul>
+		<li><input type="radio" name="r5" value="incorect">4 2 1 5 7 3 6 </input></li>
+		<li><input type="radio" name="r5" value="corect">1 2 4 3 5 7 6 </input></li>
+		<li><input type="radio" name="r5" value="incorect">1 2 3 4 5 6 7  </input></li>
+		</ul>
+	</li>
+
+</ol>
+
+<input type="button" value="Help!" onClick="Help()"></input>
+<input type="button" value="Valideaza test" onClick="verificaRasp()"></input>
+<input type="reset" value="Reseteaza"></input>
+<br>
+<textarea rows="6" cols="60" name="cutieRaspunsuri">Raspunsurile corecte vor fi afisate aici</textarea>
+
+</form>
+
+</body>
+
+</html>
