@@ -1,0 +1,116 @@
+{
+  "intrebari": [
+    {
+      "id": 1,
+      "nume": "Pentru un arbore binar cu n niveluri, numarul maxim de noduri din arbore este:"
+    },
+    {
+      "id": 2,
+      "nume": "Cate modalitati de parcurgere a unui arbore binar exista ?"
+    },
+    {
+      "id": 3,
+      "nume": "Parcurgerea in postordine presupune:"
+    },
+    {
+      "id": 4,
+      "nume": "Pentru arborele din figura de mai sus, parcuregerea in inordine este:"
+    },
+    {
+      "id": 5,
+      "nume": "Pentru arborele din figura de mai sus, parcuregerea in preordine este:"
+    }
+  ],
+  "raspunsuri": [
+    {
+      "id": 1,
+      "nume": "2^n-1",
+      "ID_I": "1",
+      "corectitudine": "corect"
+    },
+    {
+      "id": 2,
+      "nume": "Nu",
+      "ID_I": "1",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 3,
+      "nume": "Poate",
+      "ID_I": "1",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 4,
+      "nume": "2",
+      "ID_I": "2",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 5,
+      "nume": "3",
+      "ID_I": "2",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 6,
+      "nume": "4",
+      "ID_I": "2",
+      "corectitudine": "corect"
+    },
+    {
+      "id": 7,
+      "nume": "parcurgerea subarborelui stang, a varfului, apoi a subarborelui",
+      "ID_I": "3",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 1,
+      "nume": "parcurgrea varfului, a subarborelui stang dupa care a celui drept",
+      "ID_I": "3",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 8,
+      "nume": "parcurgerea subarborelui stang, a subarborelui drept dupa care a varfului",
+      "ID_I": "3",
+      "corectitudine": "corect"
+    },
+    {
+      "id": 9,
+      "nume": "1 2 4 3 5 7 6",
+      "ID_I": "4",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 10,
+      "nume": "4 2 7 5 6 3 1",
+      "ID_I": "4",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 12,
+      "nume": "4 2 1 5 7 3 6",
+      "ID_I": "4",
+      "corectitudine": "corect"
+    },
+    {
+      "id": 13,
+      "nume": "4 2 1 5 7 3 6",
+      "ID_I": "5",
+      "corectitudine": "incorect"
+    },
+    {
+      "id": 14,
+      "nume": "1 2 4 3 5 7 6",
+      "ID_I": "5",
+      "corectitudine": "corect"
+    },
+    {
+      "id": 15,
+      "nume": "1 2 3 4 5 6 7",
+      "ID_I": "5",
+      "corectitudine": "incorect"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<meta http-equiv='X-UA-Compatible' content="IE=edge" />
+	
+		<link rel='stylesheet' type='text/css' href='styles.css' />
+	
+		<title>Quiz</title>
+	</head>
+
+<body>
+	<h1>Quiz</h1>
+
+	<form method="POST" onsubmit="return false;" onreset="adaugaIntrebare()" name="alternativ">
+
+		<ol id="lista_intrebari">
+			
+		</ol>
+
+		<input type="button" value="Help!" onClick="Help()">
+		<input type="button" value="Valideaza test" onClick="verificaRasp()">
+		<input type="button" onclick="resetare()" value="Reseteaza">
+		<br>
+		<textarea rows="6" cols="60" name="cutieRaspunsuri">Răspunsurile vor fi afișate aici.</textarea>
+		<br><br>
+		<input type="text" placeholder="Intrebarea ta" name="Intrebare" id="intrebareNoua">
+		<input type="button" value="Adauga intrebare" onclick="adaugaIntrebare()">
+
+	</form>
+	<script src="quiz.js"></script>
+
+</body>
+
+</html>

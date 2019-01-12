@@ -1,4 +1,9 @@
 
+ .body {
+   background-image: url("images/background.jpg");
+   margin: 0;
+ }
+
 
 .cssmenu ul {
   margin:0px;
@@ -45,7 +50,6 @@
 margin-right:auto;
 margin-left:auto;
 width:100%;
-
 }
 
 .header{
@@ -64,12 +68,52 @@ float:left;
 }
 
 .footer {
-background-image:url("images/footer.jpg");
+margin: 0 auto;
 color:white;
 width: 100%;
-clear:both
+font-size: 22px;
+text-align: center;
 }
 
+.poza {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.poza-quiz {
+  width: 50%;
+  height: 50%
+}
+
+.poza-introducere {
+  width: 100%;
+  height: 100%;
+}
+
+.poza-model {
+  width: 35%;
+  height: 35%;
+}
+
+.p {
+  font-family: "vendeta";
+  font-size: 22px;
+  text-indent: 5em;
+}
+
+.p1 {
+  text-align: center;
+  font-family: "vendeta";
+  font-size: 28px;
+  }
+
+.strong-arbori {
+  font-family: "Curlz MT";
+  font-size: 50px;
+  text-align: center;
+}
 
 @media only all and (max-width: 768px) {
   .cssmenu ul {
@@ -89,8 +133,3 @@ clear:both
   }
 }
 
-.poza {
-  width: 300px;
-  margin: 0 auto;
-  
-}

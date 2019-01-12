@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="ro">
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta http-equiv='X-UA-Compatible' content="IE=edge" />
+
+    <link rel='stylesheet' type='text/css' href='styles.css' />
+
+    <title> Modelul Arborelui </title>
+</head>
+
+<body>
+    <p class="p1"><strong>Modelul arborelui</strong></p>
+    <p class="p">
+        Definirea arborilor se poate face recursiv. Astfel, un arbore este o colecție de
+        noduri (numarul lor poate fi și 0). Un arbore constă dintr-un nod numit rădăcină, r, și mai
+        mulți subarbori, T1, T2, ... ,Tn, unde n este un număr natural (toți acești subarbori sunt
+        legați direct la nodul rădăcină). Nodul rădăcină al fiecărui subarbore se numește nod fiu
+        al nodului rădăcină r.</p>
+    <p class="p">Legătura dintre două noduri succesive din arbore se numește arc; legătura dintre
+        rădăcină și un nod oarecare presupune parcurgerea a m arce, pe care se află n=m-1 noduri.
+        Valoarea n reprezintă nivelul pe care este poziționat nodul față de rădăcină (nivelul
+        rădăcinii este 1, prin convenție).</p>
+    <p class="p">înălțimea unui arbore se poate defini ca valoarea maximă luată de nivelurile
+        nodurilor terminale. În figura 3.3. este prezentat un exemplu de arbore cu înălțimea 3
+        (este precizată și înălțimea fiecăruia dintre subarbori).
+    </p>
+    <img class="poza-introducere" src="images/Modelul1.png" alt="model1">
+    <p class="p">Descendenții direcți ai unui nod, care se mai numesc și fii, sunt reprezentați de
+        mulțimea nodurilor cu înălțimea mai mică sau egală cu a sa, legate direct de acesta.
+        Numărul de descendenți direcți ai unui nod reprezintă ordinul sau gradul nodului.
+        Ordinul sau gradul arborelui este valoarea maximă luată de gradul unui nod component
+        al arborelui. Numărul maxim de noduri conținute într-un arbore de ordin d și înălțime H,
+        este dat de următoarea relație:</p>
+
+    <img class="poza-model" src="images/Modelul2.png" alt="model2">
+
+    <p class="p">Arborele binar este un arbore în care fiecare nod are maxim doi fii. Cei doi
+        subarbori corespunzători fiilor unui nod se numesc subarbore stâng, respectiv subarbore
+        drept. între numărul N de noduri al unui arbore binar și înălțimea sa H, există relațiile:</p>
+    <img class="poza-model" src="images/Modelul3.png" alt="model3">
+    <p class="p">Arborele echilibrat este acel arbore pentru care diferena între înălțimile
+        subarborilor săi este cel mult 1. Arborii binari echilibrați se numesc și arbori AVL
+        (Adelson-Velsky-Landis).</p>
+</body>
+
+</html>
