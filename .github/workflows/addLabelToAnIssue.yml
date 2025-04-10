@@ -2,8 +2,6 @@ name: Add label to an issue
 
 on:
   issues:
-    types: 
-      - labeled
     workflow_dispatch:
       inputs:
         logLevel:
@@ -23,6 +21,8 @@ on:
           description: 'Test scenario tags'
           required: true
           type: string
+    types: 
+       - labeled
 
 jobs:
   print-tag:
