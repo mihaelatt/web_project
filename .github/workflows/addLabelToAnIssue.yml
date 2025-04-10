@@ -21,17 +21,17 @@ on:
           description: 'Test scenario tags'
           required: true
           type: string
-      types: 
-        - labeled
+    jobs:
+       print-tag:
+          runs-on: ubuntu-latest
+          if: ${{ inputs.print_tags }} 
+          steps:
+            - name: Print the input tag to STDOUT
+              run: echo  The tags are ${{ inputs.tags }}   
+    types: 
+     - labeled
 
-jobs:
-  print-tag:
-    runs-on: ubuntu-latest
-    if: ${{ inputs.print_tags }} 
-    steps:
-      - name: Print the input tag to STDOUT
-        run: echo  The tags are ${{ inputs.tags }}
-        
+jobs:   
   label_issue:
     runs-on: ubuntu-latest
     steps:
