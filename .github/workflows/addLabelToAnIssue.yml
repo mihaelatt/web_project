@@ -21,8 +21,8 @@ on:
           description: 'Test scenario tags'
           required: true
           type: string
-    types: 
-       - labeled
+      types: 
+        - labeled
 
 jobs:
   print-tag:
