@@ -13,6 +13,13 @@ jobs:
           echo A comment on PR $NUMBER
         env:
           NUMBER: ${{ github.event.issue.number }}
+      - name: First interaction
+        uses: actions/first-interaction@v1.3.0
+        with:
+          # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
+          repo-token: "{{ secrets.GITHUB_TOKEN }}"
+          # Comment to post on an individual's first pull request
+          pr-message: "Hello from First Interaction from github marketplace - PR"
 
   issue_commented:
     # This job only runs for issue comments
@@ -24,3 +31,10 @@ jobs:
           echo A comment on issue $NUMBER
         env:
           NUMBER: ${{ github.event.issue.number }}
+      - name: First interaction
+        uses: actions/first-interaction@v1.3.0
+        with:
+          # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
+          repo-token: "{{ secrets.GITHUB_TOKEN }}"
+          # Comment to post on an individual's first issue
+          issue-message: "Hello from First Interaction from github marketplace - ISSUE"
